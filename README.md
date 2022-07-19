@@ -2,7 +2,7 @@
 DataSet: Firstly the dataset was in the form of Time Series Data , and then the data was converted into 2D Spectrogram images of outer space radio signals collected by the Allen Telescope Array at the SETI Institute. So that CNN Model can be Applied on spectrogram images.
 The Project has been inspired by the SETI Institute Code Challenge held in 2017.
 There are 4 classes to classify: "squiggle", "narrowband", "noise", "narrowbanddrd".
-The Steps in the Classification Process are:
+# Steps in the Classification Process are:
 1) Import the Libraries.
 2) Load and Preprocess the data.
 3) Plot 2D Spectrograms.
@@ -12,10 +12,15 @@ The Steps in the Classification Process are:
 7) Train the Model.
 8) Model Evalutation.
 
-#Screenshots:
-<img src  = "2D Spectorgrams.png" >
-<img src  = "Graphs.png" >
-<img src  = "Confusion Matrix.png" >
+# Screenshots:
+# 1) 2D Spectrograms
+<img src  = "2D Spectrograms.PNG" >
+
+# 2) Loss Function and Accuracy
+<img src  = "Graphs.PNG" >
+
+# 3)Confusion Matrix
+<img src  = "Confusion Matrix.PNG" >
 
 The Accuracy of the Model was: 75.50 %
 The model could be optimized using Transfer Learning and using VGG network and by doing hyperparamter tuning.
